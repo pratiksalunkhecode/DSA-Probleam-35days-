@@ -1,0 +1,26 @@
+int freq = 1;
+
+int i = 0;
+
+while(i < n)
+{
+
+    if(i < n && arr[i] == arr[i - 1])
+       {
+           freq++;
+           i++;
+       }
+
+   Sysout.out.println(arr[i -1]+ " " +freq);
+  
+
+       i++;
+       freq = 1;
+
+
+     if(n == 1 || arr[i] != arr[i - 1])
+        {
+            Sysout.out.println(arr[i - 1]+ " " 1); 
+        }
+
+}

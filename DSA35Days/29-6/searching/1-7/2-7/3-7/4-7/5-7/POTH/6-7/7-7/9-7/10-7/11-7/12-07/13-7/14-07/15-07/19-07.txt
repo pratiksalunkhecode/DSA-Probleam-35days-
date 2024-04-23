@@ -1,0 +1,29 @@
+ int count = 0;
+       
+       for(int i = 0; i < n; i++)
+       {
+           if(arr[i] != 0)
+           {
+              // swap(arr[i] , arr[count]);
+               int temp = arr[count];
+               
+               arr[count] = arr[i];
+               
+               arr[i] = temp;
+               count++;
+               
+           }
+       }
+
+=================================
+rotate by one
+
+int temp = arr[0];
+
+for(int i = 0 ; i < n ; i++)
+{
+      arr[i - 1] = arr[i];
+
+}
+
+      arr[n - 1] = temp;
